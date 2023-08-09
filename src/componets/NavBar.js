@@ -1,9 +1,8 @@
 import { useState, useEffect } from "react";
-import { Navbar, Container } from "react-bootstrap";
-import logo from '../assests/img/logo.svg'
+import { Navbar, Container, Nav } from "react-bootstrap";
+import logo from '../assests/img/logo.png'
 import navIcon1 from '../assests/img/nav-icon1.svg'
-import navIcon2 from '../assests/img/nav-icon2.svg'
-import navIcon3 from '../assests/img/nav-icon3.svg'
+
 
 export const NavBar = () => {
   const [activeLink, setActiveLink] = useState('home');
@@ -46,10 +45,8 @@ export const NavBar = () => {
           <span className="navbar-text">
             <div classname="social-icon">
               <a herf="#"><img src={navIcon1} alt="" /></a>
-              <a herf="#"><img src={navIcon2} alt="" /></a>
-              <a herf="#"><img src={navIcon3} alt="" /></a>
             </div>
-            <button className="vvd" onClick={() => console.log('connect')}><span>Let's Connect</span></button>
+            {/* <button className="vvd" onClick={() => console.log('connect')}><span>Let's Connect</span></button> */}
           </span>
         </Navbar.Collapse>
       </Container>

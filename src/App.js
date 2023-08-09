@@ -2,11 +2,13 @@ import logo from './logo.svg';
 import './App.css';
 import { NavBar, Navbar } from "./componets/NavBar";
 import 'bootstrap/dist/css/bootstrap.min.css';
+import { Banner } from './componets/Banner';
 
 function App() {
   return (
     <div className='App'>
       <NavBar />
+      <Banner />
     </div>
   );
 }

@@ -1,5 +1,5 @@
 /************ Custom Font ************/
-@font-face {
+/* @font-face {
   font-family: Centra;
   src: url('./assets/font/CentraNo2-Bold.ttf');
   font-weight: 700;
@@ -15,7 +15,7 @@
   font-family: Centra;
   src: url('./assets/font/CentraNo2-Book.ttf');
   font-weight: 400;
-}
+} */
 
 /************ Default Css ************/
 * {
@@ -113,6 +113,11 @@ nav.navbar.scrolled {
 nav.navbar a.navbar-brand {
   width: 9%;
 }
+
+/* nav.navbar a.navbar-brand img {
+  width: 150px;
+  height: 100px;
+} */
 
 nav.navbar .navbar-nav .nav-link.navbar-link {
   font-weight: 400;
@@ -272,7 +277,9 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 .banner {
   margin-top: 0;
   padding: 260px 0 100px 0;
-  background-image: url('./assets/img/banner-bg.png');
+  background-image:
+    linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url('./assests/img/Chinook.jpg');
   background-position: top center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -282,7 +289,8 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   font-weight: 700;
   letter-spacing: 0.8px;
   padding: 8px 10px;
-  background: linear-gradient(90.21deg, rgba(170, 54, 124, 0.5) -5.91%, rgba(74, 47, 189, 0.5) 111.58%);
+  border-radius: 5px;
+  background: linear-gradient(90.21deg, rgba(82, 170, 31, 0.5) -5.91%, rgba(7, 99, 15, 0.5) 111.58%);
   border: 1px solid rgba(255, 255, 255, 0.5);
   font-size: 20px;
   margin-bottom: 16px;
@@ -299,7 +307,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 }
 
 .banner p {
-  color: #B8B8B8;
+  color: #ffffff;
   font-size: 18px;
   letter-spacing: 0.8px;
   line-height: 1.5em;
@@ -328,7 +336,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 }
 
 .banner img {
-  animation: updown 3s linear infinite;
+  animation: updown 0s linear infinite;
 }
 
 @keyframes updown {
@@ -630,7 +638,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 /************ Footer Css ************/
 .footer {
   padding: 0 0 50px 0;
-  background-image: url('./assets/img/footer-bg.png');
+  background-image: url('./assests/img/footer-bg.png');
   background-position: center center;
   background-size: cover;
   background-repeat: no-repeat;
