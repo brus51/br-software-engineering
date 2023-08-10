@@ -1,21 +1,32 @@
 {
   "files": {
-    "main.css": "/br-software-engineering/static/css/main.b8bb4e9b.css",
-    "main.js": "/br-software-engineering/static/js/main.ec1b24d4.js",
+    "main.css": "/br-software-engineering/static/css/main.0edd0e4f.css",
+    "main.js": "/br-software-engineering/static/js/main.829e25e5.js",
     "static/js/787.e5dfe542.chunk.js": "/br-software-engineering/static/js/787.e5dfe542.chunk.js",
     "static/media/Chinook.jpg": "/br-software-engineering/static/media/Chinook.f53e963b964f9597ff61.jpg",
-    "static/media/header-img.svg": "/br-software-engineering/static/media/header-img.84bf93eb20488a753440bf83d27db7bb.svg",
+    "static/media/color-sharp.png": "/br-software-engineering/static/media/color-sharp.bea361cfef80fefc2d1e.png",
     "static/media/footer-bg.png": "/br-software-engineering/static/media/footer-bg.7bd67c0f73571d0acc02.png",
     "static/media/logo.png": "/br-software-engineering/static/media/logo.f7144678c67a037b21f1.png",
-    "static/media/logo.svg": "/br-software-engineering/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "static/media/caro5.png": "/br-software-engineering/static/media/caro5.c67d52c33f12f090c29f.png",
+    "static/media/revicons.eot": "/br-software-engineering/static/media/revicons.a77de540a38981833f9e.eot",
+    "static/media/revicons.ttf": "/br-software-engineering/static/media/revicons.57fd05d4ae650374c8de.ttf",
+    "static/media/caro7.png": "/br-software-engineering/static/media/caro7.83f6d80d1a7c936111fd.png",
+    "static/media/caro10.png": "/br-software-engineering/static/media/caro10.2c832494c8aeba4f39a5.png",
+    "static/media/caro1.png": "/br-software-engineering/static/media/caro1.9e203a1934bcd600a506.png",
+    "static/media/revicons.woff": "/br-software-engineering/static/media/revicons.e8746a624ed098489406.woff",
     "index.html": "/br-software-engineering/index.html",
+    "static/media/caro9.svg": "/br-software-engineering/static/media/caro9.19064d2f488c9f4fcd25ba3896b0f66a.svg",
     "static/media/nav-icon1.svg": "/br-software-engineering/static/media/nav-icon1.721d5414c26365f117e71d46b6641cb2.svg",
-    "main.b8bb4e9b.css.map": "/br-software-engineering/static/css/main.b8bb4e9b.css.map",
-    "main.ec1b24d4.js.map": "/br-software-engineering/static/js/main.ec1b24d4.js.map",
+    "static/media/caro6.svg": "/br-software-engineering/static/media/caro6.0913811929f7c81f3b40863322bfae8c.svg",
+    "static/media/caro4.svg": "/br-software-engineering/static/media/caro4.98daf49e4be2b88d6c17fcd8f30c17d9.svg",
+    "static/media/caro3.svg": "/br-software-engineering/static/media/caro3.74577817dde8fee285d3c8af53312ca6.svg",
+    "static/media/caro8.svg": "/br-software-engineering/static/media/caro8.64c92f40492c7914d08341fc2b3aa7fe.svg",
+    "main.0edd0e4f.css.map": "/br-software-engineering/static/css/main.0edd0e4f.css.map",
+    "main.829e25e5.js.map": "/br-software-engineering/static/js/main.829e25e5.js.map",
     "787.e5dfe542.chunk.js.map": "/br-software-engineering/static/js/787.e5dfe542.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.b8bb4e9b.css",
-    "static/js/main.ec1b24d4.js"
+    "static/css/main.0edd0e4f.css",
+    "static/js/main.829e25e5.js"
   ]
 }
