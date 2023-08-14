@@ -290,7 +290,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   letter-spacing: 0.8px;
   padding: 8px 10px;
   border-radius: 5px;
-  background: linear-gradient(90.21deg, rgba(82, 170, 31, 0.5) -5.91%, rgba(7, 99, 15, 0.5) 111.58%);
+  background: linear-gradient(90.21deg, rgb(70, 108, 146) -5.91%, rgba(20, 52, 126, 0.5) 111.58%);
   border: 1px solid rgba(255, 255, 255, 0.5);
   font-size: 20px;
   margin-bottom: 16px;
@@ -336,7 +336,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 }
 
 .banner img {
-  animation: updown 0s linear infinite;
+  border-radius: 100px;
 }
 
 @keyframes updown {
@@ -361,10 +361,12 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 .skill {
   padding: 0 0 50px 0;
   position: relative;
+  background:
+    linear-gradient(to bottom, rgb(0, 0, 0), rgb(0, 0, 0));
 }
 
 .skill-bx {
-  background: #151515;
+  background: linear-gradient(rgb(70, 108, 146), rgba(8, 37, 105));
   border-radius: 64px;
   text-align: center;
   padding: 60px 50px;
@@ -404,10 +406,23 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 }
 
 /************ Projects Css ************/
+/* .project {
+  padding: 80px 0;
+  position: relative;
+  background-image:
+    linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url('./assests/img/computer.jpg');
+  background-position: center left;
+} */
+
 .project {
   padding: 80px 0;
   position: relative;
-  background-color: black;
+  background-image:
+    linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url('./assests/img/computer.jpg');
+  background-size: cover;
+  background-position: center top;
 }
 
 .project h2 {
@@ -458,7 +473,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   position: absolute;
   width: 0;
   height: 100%;
-  background: linear-gradient(90.21deg, #AA367C -5.91%, #4A2FBD 111.58%);
+  background: linear-gradient(90.21deg, rgb(70, 108, 146) -5.91%, rgba(8, 37, 105, 0.5) 111.58%);
   top: 0;
   left: 0;
   z-index: -1;
@@ -497,7 +512,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 
 .proj-imgbx::before {
   content: "";
-  background: linear-gradient(90.21deg, #AA367C -5.91%, #4A2FBD 111.58%);
+  background: linear-gradient(90.21deg, rgb(70, 108, 146) -5.91%, rgba(8, 37, 105, 0.5) 111.58%);
   opacity: 0.85;
   position: absolute;
   width: 100%;
@@ -546,6 +561,10 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   width: 35%;
   right: 0;
   z-index: -4;
+}
+
+.custom-link {
+  color: #fff;
 }
 
 /************ Projects Css ************/

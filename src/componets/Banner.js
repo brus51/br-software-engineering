@@ -1,6 +1,6 @@
 import { Container, Row, Col } from "react-bootstrap";
 import { ArrowRightCircle } from "react-bootstrap-icons";
-import headerImg from "../assests/img/header-img.svg";
+// import headerImg from "../assests/img/header-img.png";
 import { useEffect, useState } from "react";
 
 
@@ -8,7 +8,7 @@ import { useEffect, useState } from "react";
 export const Banner = () => {
     const [loopNum, setLoopNum] = useState(0);
     const [isDeleting, setIsDeleting] = useState(false);
-    const toRotate = ["Software Engineer", "Full-Stack Developer", "Front-End Devolper", "Back-End Developer"];
+    const toRotate = ["Software Engineer", "Full-Stack Developer", "Front-End Developer", "Back-End Developer"];
     const [text, setText] = useState('');
     const [delta, setDelta] = useState(300 - Math.random() * 100);
     const period = 2000;
@@ -48,8 +48,8 @@ export const Banner = () => {
             <Container>
                 <Row className="align-items-center">
                     <Col xs={12} md={6} xl={7}>
-                        <span className="tagline">Welcome to my Portfolio</span>
-                        <h1>{"Hi I am a "}<span className="wrap">{text}</span></h1>
+                        <span className="tagline">Welcome!</span>
+                        <h1>{"I'm a "}<span className="wrap">{text}</span></h1>
                         <p>I am a highly-driven professional specializing in Software Engineering, committed to the continuous enhancement and expansion of my technical skill set. I am consistently channeling my inherent passion for learning and achieving excellence to excel as a Full Stack Developer.
                             I also bring a strong background in the Army National Guard where, for 9 years, I served as an Aircraft Electrician for Chinooks and Blackhawks in Rochester. For about 4 of those years, I worked full-time. Those experiences fortified my leadership abilities and teamwork skills and developed a passion for technology, troubleshooting, and problem-solving.
                             Outside of my professional pursuits, I'm an avid outdoorsman and fisherman, with an interest in physical fitness and well-being, activities that provide balance and renewal in my dynamic life.</p>

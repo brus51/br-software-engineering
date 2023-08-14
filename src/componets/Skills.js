@@ -1,7 +1,6 @@
 import { Container, Row, Col } from "react-bootstrap";
 import Carousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
-import colorSharp from "../assests/img/color-sharp.png";
 import caro1 from "../assests/img/caro1.png";
 import caro2 from "../assests/img/caro2.png";
 import caro3 from "../assests/img/caro3.svg";
@@ -47,7 +46,7 @@ export const Skills = () => {
                             </p>
                             <Carousel responsive={responsive} infinite={true} className="skill-slider">
                                 <div className="item">
-                                    <img src={caro1} alt="Image" />
+                                    <img src={caro1} />
                                     <h5>Python</h5>
                                 </div>
                                 <div className="item">
@@ -91,7 +90,6 @@ export const Skills = () => {
                     </Col>
                 </Row>
             </Container>
-            <img className="background-image-left" src={colorSharp} />
         </section>
     );
 
