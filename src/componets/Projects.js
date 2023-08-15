@@ -46,10 +46,10 @@ export const Projects = () => {
                                     <Nav.Link eventKey="first">Applications</Nav.Link>
                                 </Nav.Item>
                                 <Nav.Item>
-                                    <Nav.Link eventKey="second">Coming Soon</Nav.Link>
+                                    <Nav.Link eventKey="second">Developing</Nav.Link>
                                 </Nav.Item>
                                 <Nav.Item>
-                                    <Nav.Link eventKey="third">Coming Soon</Nav.Link>
+                                    <Nav.Link eventKey="third">Developing</Nav.Link>
                                 </Nav.Item>
                             </Nav>
                             <Tab.Content>

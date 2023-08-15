@@ -114,11 +114,6 @@ nav.navbar a.navbar-brand {
   width: 9%;
 }
 
-/* nav.navbar a.navbar-brand img {
-  width: 150px;
-  height: 100px;
-} */
-
 nav.navbar .navbar-nav .nav-link.navbar-link {
   font-weight: 400;
   color: #fff !important;
@@ -498,17 +493,17 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 }
 
 .nav-link#projects-tabs-tab-first {
-  border: 1px solid rgba(255, 255, 255, 0.5);
+  border: 2px solid rgba(255, 255, 255, 0.5);
   border-radius: 55px 0px 0px 55px;
 }
 
 .nav-link#projects-tabs-tab-second {
-  border-top: 1px solid rgba(255, 255, 255, 0.5);
-  border-bottom: 1px solid rgba(255, 255, 255, 0.5);
+  border-top: 2px solid rgba(255, 255, 255, 0.5);
+  border-bottom: 2px solid rgba(255, 255, 255, 0.5);
 }
 
 .nav-link#projects-tabs-tab-third {
-  border: 1px solid rgba(255, 255, 255, 0.5);
+  border: 2px solid rgba(255, 255, 255, 0.5);
   border-radius: 0 55px 55px 0;
 }
 
@@ -760,4 +755,114 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   color: #B8B8B8;
   letter-spacing: 0.5px;
   margin-top: 20px;
+}
+
+
+.tanuki-logo .tanuki {
+  fill: #F5F5F5;
+  transition: all 0.8s
+}
+
+.tanuki-logo .tanuki:hover {
+  fill: #AA83FF;
+  transition: all 0.1s
+}
+
+.tanuki-logo .left-cheek,
+.tanuki-logo .right-cheek {
+  fill: #F0F0F0;
+  transition: all 0.8s
+}
+
+.tanuki-logo .left-cheek:hover,
+.tanuki-logo .right-cheek:hover {
+  fill: #B897FF;
+  transition: all 0.1s
+}
+
+.tanuki-logo .chin {
+  fill: #ECECEC;
+  transition: all 0.8s
+}
+
+.tanuki-logo .chin:hover {
+  fill: #C4AAFF;
+  transition: all 0.1s
+}
+
+.tanuki-logo.animate .tanuki-shape {
+  animation-duration: 1.5s;
+  animation-iteration-count: infinite
+}
+
+.tanuki-logo.animate .tanuki {
+  animation-name: animate-tanuki-base
+}
+
+@keyframes animate-tanuki-base {
+
+  0%,
+  50% {
+    fill: #F5F5F5
+  }
+
+  25% {
+    fill: #AA83FF
+  }
+}
+
+.tanuki-logo.animate .right-cheek {
+  animation-name: animate-tanuki-right-cheek
+}
+
+@keyframes animate-tanuki-right-cheek {
+
+  25%,
+  75% {
+    fill: #F0F0F0
+  }
+
+  50% {
+    fill: #B897FF
+  }
+}
+
+
+/************ Gitlab CSS ************/
+
+.tanuki-logo.animate .chin {
+  animation-name: animate-tanuki-chin
+}
+
+@keyframes animate-tanuki-chin {
+
+  50%,
+  100% {
+    fill: #ECECEC
+  }
+
+  75% {
+    fill: #C4AAFF
+  }
+}
+
+.tanuki-logo.animate .left-cheek {
+  animation-name: animate-tanuki-left-cheek
+}
+
+@keyframes animate-tanuki-left-cheek {
+
+  25%,
+  75% {
+    fill: #F0F0F0
+  }
+
+  100% {
+    fill: #B897FF
+  }
+}
+
+.social-icon a.gitlab-icon {
+  position: relative;
+  top: -4px;
 }
