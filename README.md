@@ -1,4 +1,4 @@
-# Getting Started with Create React App
+# Hello!
 
 Welcome to my portfolio project! Have a look around and feel free to contact me if you have any questions!
 
