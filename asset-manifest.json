@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/br-software-engineering/static/css/main.2b7efcfb.css",
-    "main.js": "/br-software-engineering/static/js/main.03985467.js",
+    "main.css": "/br-software-engineering/static/css/main.6d526c89.css",
+    "main.js": "/br-software-engineering/static/js/main.137f69ad.js",
     "static/js/787.e5dfe542.chunk.js": "/br-software-engineering/static/js/787.e5dfe542.chunk.js",
     "static/media/project-img1.jpg": "/br-software-engineering/static/media/project-img1.d1fd7bce430b2479020e.jpg",
     "static/media/computer.jpg": "/br-software-engineering/static/media/computer.aac3d9697d46702e8fdd.jpg",
@@ -26,12 +26,12 @@
     "static/media/caro4.svg": "/br-software-engineering/static/media/caro4.98daf49e4be2b88d6c17fcd8f30c17d9.svg",
     "static/media/caro3.svg": "/br-software-engineering/static/media/caro3.74577817dde8fee285d3c8af53312ca6.svg",
     "static/media/caro8.svg": "/br-software-engineering/static/media/caro8.64c92f40492c7914d08341fc2b3aa7fe.svg",
-    "main.2b7efcfb.css.map": "/br-software-engineering/static/css/main.2b7efcfb.css.map",
-    "main.03985467.js.map": "/br-software-engineering/static/js/main.03985467.js.map",
+    "main.6d526c89.css.map": "/br-software-engineering/static/css/main.6d526c89.css.map",
+    "main.137f69ad.js.map": "/br-software-engineering/static/js/main.137f69ad.js.map",
     "787.e5dfe542.chunk.js.map": "/br-software-engineering/static/js/787.e5dfe542.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.2b7efcfb.css",
-    "static/js/main.03985467.js"
+    "static/css/main.6d526c89.css",
+    "static/js/main.137f69ad.js"
   ]
 }
