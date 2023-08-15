@@ -3,7 +3,7 @@ import { ProjectCard } from "./ProjectCard";
 import project from "../assests/img/projects.jpg";
 import projImg1 from "../assests/img/project-img1.jpg";
 import projImg2 from "../assests/img/project-img2.jpg";
-import projImg3 from "../assests/img/project-img3.jpg";
+import projImg3 from "../assests/img/Chinook.jpg";
 
 
 
@@ -18,15 +18,15 @@ export const Projects = () => {
         },
         {
             title: "Lot Logic",
-            description: "Repair and Service Vehicles. Schedule Appointments, Maintain Employees",
+            description: "Repair and Service Vehicles. Schedule Appointments. Maintain Employee Profiles",
             imgUrl: projImg2,
             link: "https://gitlab.com/brian.p.ruscio/lot-logic",
         },
         {
-            title: "Coming Soon",
-            description: "In Work",
+            title: "React Based Portfolio",
+            description: "You're Here! Check out How it was Made!",
             imgUrl: projImg3,
-            link: "https://gitlab.com/",
+            link: "https://github.com/brus51",
         },
     ];
 
@@ -43,13 +43,13 @@ export const Projects = () => {
                         <Tab.Container id="projects-tabs" defaultActiveKey="first">
                             <Nav variant="pills" className="nav-pills mb-5 justify-content-center align-items-center" id="pills-tab">
                                 <Nav.Item>
-                                    <Nav.Link eventKey="first">Apps</Nav.Link>
+                                    <Nav.Link eventKey="first">Programs</Nav.Link>
                                 </Nav.Item>
                                 <Nav.Item>
-                                    <Nav.Link eventKey="second">Building</Nav.Link>
+                                    <Nav.Link eventKey="second">In-Work</Nav.Link>
                                 </Nav.Item>
                                 <Nav.Item>
-                                    <Nav.Link eventKey="third">Building</Nav.Link>
+                                    <Nav.Link eventKey="third">In-Work</Nav.Link>
                                 </Nav.Item>
                             </Nav>
                             <Tab.Content>

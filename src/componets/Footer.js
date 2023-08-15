@@ -25,9 +25,9 @@ export const Footer = () => {
                     </Col>
                     <Col size={12} sm={6} className="text-center text-sm-end">
                         <div className="social-icon">
-                            <a href="www.linkedin.com/in/brian-ruscio-374b28b7"><img src={navIcon1} /></a>
-                            <a href="https://github.com/brus51"><img src={navIcon2} /></a>
-                            <a className="gitlab-icon" href="https://gitlab.com/brian.p.ruscio"><GL2 /></a>
+                            <a href="https://linkedin.com/in/brian-ruscio-374b28b7" target="_blank" rel="noreferrer noopener" ><img src={navIcon1} /></a>
+                            <a href="https://github.com/brus51" target="_blank" rel="noreferrer noopener"><img src={navIcon2} /></a>
+                            <a className="gitlab-icon" href="https://gitlab.com/brian.p.ruscio" target="_blank" rel="noreferrer noopener"><GL2 /></a>
                         </div>
                         <p>Thanks for stopping by!</p>
                     </Col>
