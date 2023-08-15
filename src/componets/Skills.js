@@ -38,11 +38,12 @@ export const Skills = () => {
                 <Row>
                     <Col>
                         <div className="skill-bx">
+                            <hr />
                             <h2>
                                 Skills
                             </h2>
                             <p>
-                                These are the frameworks and coding languages I have experience in.
+                                These Are Languages And Frameworks I Have Experience In
                             </p>
                             <Carousel responsive={responsive} infinite={true} className="skill-slider">
                                 <div className="item">
