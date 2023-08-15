@@ -1,13 +1,12 @@
 {
   "files": {
-    "main.css": "/br-software-engineering/static/css/main.6d526c89.css",
-    "main.js": "/br-software-engineering/static/js/main.3806dc42.js",
+    "main.css": "/br-software-engineering/static/css/main.aec22a6a.css",
+    "main.js": "/br-software-engineering/static/js/main.1a47ed18.js",
     "static/js/787.e5dfe542.chunk.js": "/br-software-engineering/static/js/787.e5dfe542.chunk.js",
     "static/media/project-img1.jpg": "/br-software-engineering/static/media/project-img1.d1fd7bce430b2479020e.jpg",
     "static/media/computer.jpg": "/br-software-engineering/static/media/computer.aac3d9697d46702e8fdd.jpg",
     "static/media/projects.jpg": "/br-software-engineering/static/media/projects.49736664e59a2cc86aa5.jpg",
     "static/media/Chinook.jpg": "/br-software-engineering/static/media/Chinook.f53e963b964f9597ff61.jpg",
-    "static/media/project-img3.jpg": "/br-software-engineering/static/media/project-img3.9e48e856112ab4dff030.jpg",
     "static/media/project-img2.jpg": "/br-software-engineering/static/media/project-img2.d72cd6e0b2022d03d006.jpg",
     "static/media/contact-img.png": "/br-software-engineering/static/media/contact-img.aadba37d731b7ab3dc75.png",
     "static/media/logo.png": "/br-software-engineering/static/media/logo.f7144678c67a037b21f1.png",
@@ -26,12 +25,12 @@
     "static/media/caro4.svg": "/br-software-engineering/static/media/caro4.98daf49e4be2b88d6c17fcd8f30c17d9.svg",
     "static/media/caro3.svg": "/br-software-engineering/static/media/caro3.74577817dde8fee285d3c8af53312ca6.svg",
     "static/media/caro8.svg": "/br-software-engineering/static/media/caro8.64c92f40492c7914d08341fc2b3aa7fe.svg",
-    "main.6d526c89.css.map": "/br-software-engineering/static/css/main.6d526c89.css.map",
-    "main.3806dc42.js.map": "/br-software-engineering/static/js/main.3806dc42.js.map",
+    "main.aec22a6a.css.map": "/br-software-engineering/static/css/main.aec22a6a.css.map",
+    "main.1a47ed18.js.map": "/br-software-engineering/static/js/main.1a47ed18.js.map",
     "787.e5dfe542.chunk.js.map": "/br-software-engineering/static/js/787.e5dfe542.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.6d526c89.css",
-    "static/js/main.3806dc42.js"
+    "static/css/main.aec22a6a.css",
+    "static/js/main.1a47ed18.js"
   ]
 }
