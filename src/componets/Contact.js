@@ -1,7 +1,6 @@
 import { useState } from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import contactImg from "../assests/img/contact-img.png";
-import { useSpring, animated } from 'react-spring';
 
 export const Contact = () => {
     const [formState, setFormState] = useState({
@@ -64,7 +63,6 @@ export const Contact = () => {
                 })
         }
     };
-
 
 
     return (
